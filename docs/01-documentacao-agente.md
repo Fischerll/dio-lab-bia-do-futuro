@@ -5,39 +5,39 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Ele estará encarregado de dar suporte para aquelas pessoas que necessitam de ajuda para controlar os seus gastos.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
-
+Ele organizará os gastos mensais, para gastos eventuais e fazer essa separação visual usando os dados do proprio cliente como exemplo.
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Pessoas iniciantes em finanças pessoais
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
-
+Funcionario 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+-Educativo e paciente
+-Usa exemplos praticos
+-Nunca julga os gastos do cliente
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Informal, acessivel e didatico como um amigo/professor.
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Olá! Como posso ajudar com suas finanças hoje?
+- Confirmação: "Entendi! Deixa eu verificar isso para você.
+- Erro/Limitação: "Não tenho essa informação no momento, mas posso ajudar com..."
 
 ---
 
@@ -59,10 +59,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | Streamlit |
+| LLM | Ollama (local) |
+| Base de Conhecimento |  JSON/CSV  |
+| Validação | Checagem de alucinações |
 
 ---
 
@@ -70,12 +70,14 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Só usa dados fornecidos no contexto
+- [ ] Não recomenta investimentos especificos
+- [ ] Admite quando não sabe algo
+- [ ] Foca apenas em educar, não em aconselhar
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não recomenda investimentos
+- Não acessa dados bancarios reais e sensiveis (como senhas)
+- Não substitui profissionais da area qualificados
