@@ -5,12 +5,12 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Ele estará encarregado de dar suporte para aquelas pessoas que necessitam de ajuda para controlar os seus gastos.
+Ele estará encarregado de dar suporte para aquelas pessoas que necessitam de ajuda para controlar os seus gastos e recomendar possiveis investimentos.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-Ele organizará os gastos mensais, para gastos eventuais e fazer essa separação visual usando os dados do proprio cliente como exemplo.
+Ele organizará os gastos mensais, gastos eventuais e um possivel investimento usando os dados do proprio cliente como exemplo.
 ### Público-Alvo
 > Quem vai usar esse agente?
 
