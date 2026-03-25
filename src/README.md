@@ -40,3 +40,7 @@ pip install -r requirements.txt
 # Rodar a aplicação
 streamlit run .\src\app.py
 ```
+
+## Evidencia de Execução 
+![WhatsApp Image 2026-03-25 at 12 19 48](https://github.com/user-attachments/assets/57742089-21b3-49dc-8c0c-86e91bd869b5)
+
